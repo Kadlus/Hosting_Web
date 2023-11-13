@@ -1,0 +1,48 @@
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.navigation-menu {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    width: 100%;
+}
+
+.nav-link {
+    margin-left: 24px;
+    margin-right: 24px;
+    font-size: 24px;
+    color: #ffff;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.nav-link a:hover {
+    color: rgba(122, 122, 122);
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+}
+
+.footer-link {
+    margin-left: 24px;
+    margin-right: 24px;
+    font-size: 24px;
+    color: #ffff;
+}
+
