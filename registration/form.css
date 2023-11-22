@@ -12,6 +12,17 @@
     display: block;
     width: 100%;
     margin-top: 15px;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+.sign-up-form input[type="text"]:focus,
+.sign-up-form input[type="password"]:focus,
+.sign-up-form input[type="mail"]:focus,
+.sign-up-form input[type="date"]:focus {
+    border: none;
+    border-bottom: 2px solid #000000;
+    outline: none;
 }
 
 .sign-up-form input[type="date"] {
